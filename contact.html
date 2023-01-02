@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-SQUARE DIGITAL WORLD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family= Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="headers">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="">
+            </a>
+            <div class="menu-lists" id="toggle">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME PAGE</a></li> 
+
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+<h1>Contact Us</h1>
+    </section>
+
+
+    
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173332.61707136212!2d-122.59691040493298!3d47.24940370466046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549054ee2b659567%3A0x62219c07ebb09e82!2sTacoma%2C%20WA%2C%20USA!5e0!3m2!1sen!2sng!4v1672604451988!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+    <div class="arow">
+
+        <div class="contact-col">
+<div>
+    <i class="fa fa-home" ></i>
+    <span>
+        <h5>XYZ Road, ABC Building</h5>
+        <p>Tacoma, Washington, USA</p>
+    </span>
+</div>
+<div>
+    <i class="fa fa-phone" ></i>
+    <span>
+        <h5>+1 8090261011</h5>
+        <p>Monday to Saturday, 10AM to 6PM</p>
+    </span>
+</div>
+<div>
+    <i class="fa fa-envelope-o" ></i>
+    <span>
+        <h5>abdulafeez@gmail.com</h5>
+        <p>Email us your query</p>
+    </span>
+</div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea n rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="visit-us abt-us">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+                         <!-------footer------->
+                         <section class="footer">
+                            <h2>About Us</h2>
+                            <p>A-square Digital Institute Training offerings are world-class as we strive to maintain the highest standards within the dynamic ICT industry. Our courses are designed to be directly relevant to current business, technical, managerial and commercial operations with emphasis on “best practices” world – wide. Whether your desire is to be an entrepreneur or to be part of an organizational team, our courses provide sufficient academic and professional preparation.
+                                The Institute’s ultra-modern facilities which include fully equipped training rooms, multimedia teaching aids, video conferencing systems, Wi-Fi Hotspot, Telecom Laboratory and Digital Resource Library guarantee a cutting-edge learning experience</p>
+                            <div class="footer-logos">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Morax</p>
+                         </section>
+
+
+               <!-------javascript for toggle menu------->
+    <script>
+        var toggle = document.getElementById("toggle");
+        function showmenu(){
+            toggle.style.right = "0";
+        }
+        function hidemenu(){
+            toggle.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>
